@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P7.Compare the Triplets", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8.A Very Big Sum", "P8.A Very Big Sum\P8.A Very Big Sum.csproj", "{BDFE2E86-0976-4553-9E4A-99F1BC026EE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9.Diagonal Difference", "P9.Diagonal Difference\P9.Diagonal Difference.csproj", "{49D0C82C-E4CD-4804-A2B9-23DD8E99CF22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10.Plus Minus", "P10.Plus Minus\P10.Plus Minus.csproj", "{F573E3AA-9D6B-4CBC-BC06-6FEC57861A39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{BDFE2E86-0976-4553-9E4A-99F1BC026EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDFE2E86-0976-4553-9E4A-99F1BC026EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDFE2E86-0976-4553-9E4A-99F1BC026EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D0C82C-E4CD-4804-A2B9-23DD8E99CF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D0C82C-E4CD-4804-A2B9-23DD8E99CF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D0C82C-E4CD-4804-A2B9-23DD8E99CF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D0C82C-E4CD-4804-A2B9-23DD8E99CF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F573E3AA-9D6B-4CBC-BC06-6FEC57861A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F573E3AA-9D6B-4CBC-BC06-6FEC57861A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F573E3AA-9D6B-4CBC-BC06-6FEC57861A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F573E3AA-9D6B-4CBC-BC06-6FEC57861A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
