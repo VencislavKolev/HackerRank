@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.BirthdayCakeCandles", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4.TimeConversion", "P4.TimeConversion\P4.TimeConversion.csproj", "{E5C9571F-358F-408A-874C-7CA620BE8287}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5.Grading Students", "P5.Grading Students\P5.Grading Students.csproj", "{61D23250-CD1B-4AF9-83A4-2D9EC4CA7F67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E5C9571F-358F-408A-874C-7CA620BE8287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5C9571F-358F-408A-874C-7CA620BE8287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5C9571F-358F-408A-874C-7CA620BE8287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D23250-CD1B-4AF9-83A4-2D9EC4CA7F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D23250-CD1B-4AF9-83A4-2D9EC4CA7F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D23250-CD1B-4AF9-83A4-2D9EC4CA7F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D23250-CD1B-4AF9-83A4-2D9EC4CA7F67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
