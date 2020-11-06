@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1.Apple and Orange", "P1.Apple and Orange\P1.Apple and Orange.csproj", "{E27114BF-0F86-4287-9E87-56E2EA687CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2.Number Line Jumps", "P2.Number Line Jumps\P2.Number Line Jumps.csproj", "{41B6276B-45C4-40EF-BDC1-753EAB2AF314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E27114BF-0F86-4287-9E87-56E2EA687CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27114BF-0F86-4287-9E87-56E2EA687CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27114BF-0F86-4287-9E87-56E2EA687CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27114BF-0F86-4287-9E87-56E2EA687CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B6276B-45C4-40EF-BDC1-753EAB2AF314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B6276B-45C4-40EF-BDC1-753EAB2AF314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B6276B-45C4-40EF-BDC1-753EAB2AF314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B6276B-45C4-40EF-BDC1-753EAB2AF314}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33F2333C-4A4A-4DEC-8CCB-E26C6DA9536D}
+	EndGlobalSection
+EndGlobal
