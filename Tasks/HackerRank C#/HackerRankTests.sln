@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamClass", "HackerRankTests\TeamClass.csproj", "{33111FE5-54F1-4708-849C-45EF1A8E88F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesManagement", "EmployeesManagement\EmployeesManagement.csproj", "{737A9DD5-F302-49DC-8CCA-4856735DF4D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33111FE5-54F1-4708-849C-45EF1A8E88F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33111FE5-54F1-4708-849C-45EF1A8E88F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33111FE5-54F1-4708-849C-45EF1A8E88F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33111FE5-54F1-4708-849C-45EF1A8E88F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737A9DD5-F302-49DC-8CCA-4856735DF4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737A9DD5-F302-49DC-8CCA-4856735DF4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737A9DD5-F302-49DC-8CCA-4856735DF4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737A9DD5-F302-49DC-8CCA-4856735DF4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC23F3CD-02A2-4085-9019-B29A2AA95FB5}
+	EndGlobalSection
+EndGlobal
