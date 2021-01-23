@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicArray", "DynamicArra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array - DS", "Array - DS\Array - DS.csproj", "{61DE8044-3037-4FE4-93CE-4CABA9DE7834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparse Arrays", "Sparse Arrays\Sparse Arrays.csproj", "{8BECEA15-6B59-4924-855A-AAE748B62808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparse Arrays", "Sparse Arrays\Sparse Arrays.csproj", "{8BECEA15-6B59-4924-855A-AAE748B62808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array Manipulation", "Array Manipulation\Array Manipulation.csproj", "{7F3870CE-D03A-430E-8201-79A8A769BADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array Manipulation", "Array Manipulation\Array Manipulation.csproj", "{7F3870CE-D03A-430E-8201-79A8A769BADC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{C4A8B3B6-5F30-4DE2-9369-ADCBE4EBAC8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B097433-4B4D-424C-BA5D-25E7C1A0E825} = {C4A8B3B6-5F30-4DE2-9369-ADCBE4EBAC8A}
+		{DA217613-BA1D-4476-8422-0F76D8210336} = {C4A8B3B6-5F30-4DE2-9369-ADCBE4EBAC8A}
+		{61DE8044-3037-4FE4-93CE-4CABA9DE7834} = {C4A8B3B6-5F30-4DE2-9369-ADCBE4EBAC8A}
+		{8BECEA15-6B59-4924-855A-AAE748B62808} = {C4A8B3B6-5F30-4DE2-9369-ADCBE4EBAC8A}
+		{7F3870CE-D03A-430E-8201-79A8A769BADC} = {C4A8B3B6-5F30-4DE2-9369-ADCBE4EBAC8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F4E4EA8-0239-480F-A34B-BB4DCD15C9B6}
