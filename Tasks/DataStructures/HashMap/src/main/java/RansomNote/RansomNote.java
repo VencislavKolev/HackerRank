@@ -31,23 +31,23 @@ class Result {
             }
         }
 
-        Map<String, Integer> notMap = new HashMap<>();
+        Map<String, Integer> noteMap = new HashMap<>();
         for (String word : note) {
-            if (!notMap.containsKey(word)) {
-                notMap.put(word, 1);
+            if (!noteMap.containsKey(word)) {
+                noteMap.put(word, 1);
             } else {
-                notMap.replace(word, notMap.get(word) + 1);
+                noteMap.replace(word, noteMap.get(word) + 1);
             }
         }
 
         boolean canBeFormed = true;
-        for (Map.Entry<String, Integer> kvp : notMap.entrySet()) {
+        for (Map.Entry<String, Integer> kvp : noteMap.entrySet()) {
             String currentWord = kvp.getKey();
             Integer requiredCount = kvp.getValue();
-            if (magazineMap.containsKey(currentWord) && magazineMap.get(currentWord) >= requiredCount) {
-                magazineMap.remove(currentWord);
-            } else {
+
+            if (!magazineMap.containsKey(currentWord) || magazineMap.get(currentWord) < requiredCount) {
                 canBeFormed = false;
+                break;
             }
         }
         if (canBeFormed) {
