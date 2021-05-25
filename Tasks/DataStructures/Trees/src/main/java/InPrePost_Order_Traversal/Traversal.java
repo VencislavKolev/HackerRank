@@ -1,6 +1,6 @@
 package InPrePost_Order_Traversal;
 
-import java.util.Scanner;
+import java.util.*;
 
 class Node {
     Node left;
@@ -15,8 +15,7 @@ class Node {
 }
 
 class Traversal {
-
-
+    
     public static void inOrder(Node root) {
         if (root == null) {
             return;
@@ -47,17 +46,33 @@ class Traversal {
         System.out.print(root.data + " ");
     }
 
+    public static void levelOrder(Node root) {
+        Queue<Node> queue = new ArrayDeque<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            Node current = queue.poll();
+            if (current.left != null) {
+                queue.add(current.left);
+            }
+            if (current.right != null) {
+                queue.add(current.right);
+            }
+            System.out.print(current.data + " ");
+        }
+    }
+
     public static Node insert(Node root, int data) {
         if (root == null) {
             return new Node(data);
         } else {
-            Node cur;
+            Node current;
             if (data <= root.data) {
-                cur = insert(root.left, data);
-                root.left = cur;
+                current = insert(root.left, data);
+                root.left = current;
             } else {
-                cur = insert(root.right, data);
-                root.right = cur;
+                current = insert(root.right, data);
+                root.right = current;
             }
             return root;
         }
