@@ -29,11 +29,20 @@ class TreeView {
     }
 
     private static final Map<Integer, Pair> topMap = new TreeMap<>();
+    private static final Map<Integer, Pair> bottomMap = new TreeMap<>();
 
     public static void topView(Node root) {
         topViewHelper(root, 0, 0);
 
         for (Pair kvp : topMap.values()) {
+            System.out.print(kvp.node.data + " ");
+        }
+    }
+
+    public static void bottomView(Node root) {
+        bottomViewHelper(root, 0, 0);
+
+        for (Pair kvp : bottomMap.values()) {
             System.out.print(kvp.node.data + " ");
         }
     }
@@ -46,7 +55,7 @@ class TreeView {
             topMap.put(distance, new Pair(root, level));
         } else {
             Pair pair = topMap.get(distance);
-            if (pair.level >= level) {
+            if (pair.level > level) {
                 topMap.put(distance, new Pair(root, level));
             }
         }
@@ -55,15 +64,32 @@ class TreeView {
         topViewHelper(root.right, level + 1, distance + 1);
     }
 
+    private static void bottomViewHelper(Node root, int level, int distance) {
+        if (root == null) {
+            return;
+        }
+        if (!bottomMap.containsKey(distance)) {
+            bottomMap.put(distance, new Pair(root, level));
+        } else {
+            Pair pair = bottomMap.get(distance);
+            if (pair.level < level) {
+                bottomMap.put(distance, new Pair(root, level));
+            }
+        }
+
+        bottomViewHelper(root.left, level + 1, distance - 1);
+        bottomViewHelper(root.right, level + 1, distance + 1);
+    }
+
     public static Node insert(Node root, int data) {
         if (root == null) {
             return new Node(data);
         } else {
             Node cur;
-            if (data <= root.data) {
+            if (data < root.data) {
                 cur = insert(root.left, data);
                 root.left = cur;
-            } else {
+            } else if (data > root.data) {
                 cur = insert(root.right, data);
                 root.right = cur;
             }
@@ -80,6 +106,11 @@ class TreeView {
             root = insert(root, data);
         }
         scan.close();
+
         topView(root);
+        System.out.println();
+
+        bottomView(root);
+        System.out.println();
     }
 }
