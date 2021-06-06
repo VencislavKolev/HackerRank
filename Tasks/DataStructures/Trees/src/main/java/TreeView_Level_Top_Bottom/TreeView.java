@@ -1,4 +1,4 @@
-package TreeView_Left_Right_Top_Bottom;
+package TreeView_Level_Top_Bottom;
 
 import java.util.Map;
 import java.util.Scanner;
