@@ -45,6 +45,7 @@ class Decoding {
         for (char c : s.toCharArray()) {
             current = c == '1' ? current.right : current.left;
 
+            //If at leaf node append char and set currentPointer back to root.Else continue going down
             if (current.left == null && current.right == null) {
                 result.append(current.data);
                 current = root;
